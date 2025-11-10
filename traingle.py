@@ -1,22 +1,26 @@
 def area(a, b): 
     """
-    Calculate the area of a triangle.
-    Args:
-        a (float): Base length of the triangle.
-        h (float): Height of the triangle.
-    Returns:
-        float: Area of the triangle.
+    Вычисляет площадь треугольника.
+    
+    Параметры:
+        a (float): Длина основания треугольника.
+        b (float): Высота треугольника.
+    
+    Возвращает:
+        float: Площадь треугольника.
     """
     return a * b / 2 
 
 def perimeter(a, b, c): 
     """
-    Calculate the perimeter of a triangle.
-    Args:
-        a (float): Length of side a.
-        b (float): Length of side b.
-        c (float): Length of side c.
-    Returns:
-        float: Perimeter of the triangle.
+    Вычисляет периметр треугольника.
+    
+    Параметры:
+        a (float): Длина стороны a.
+        b (float): Длина стороны b.
+        c (float): Длина стороны c.
+    
+    Возвращает:
+        float: Периметр треугольника.
     """
-    return a + b + c 
+    return a + b + c
