@@ -3,7 +3,7 @@ import math
 from circle import area as circle_area, perimeter as circle_perimeter
 from rectangle import area as rectangle_area, perimeter as rectangle_perimeter
 from square import area as square_area, perimeter as square_perimeter
-from traingle import area as triangle_area, perimeter as triangle_perimeter
+from triangle import area as triangle_area, perimeter as triangle_perimeter
 
 
 class TestCircle(unittest.TestCase):
