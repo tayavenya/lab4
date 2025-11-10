@@ -1,20 +1,24 @@
 def area(a):
     """
-    Calculate the area of a square.
-    Args:
-        a (float): Side length of the square.
-    Returns:
-        float: Area of the square.
+    Вычисляет площадь квадрата.
+    
+    Параметры:
+        a (float): Длина стороны квадрата.
+    
+    Возвращает:
+        float: Площадь квадрата.
     """
     return a * a
 
 
 def perimeter(a):
     """
-    Calculate the perimeter of a square.
-    Args:
-        a (float): Side length of the square.
-    Returns:
-        float: Perimeter of the square.
+    Вычисляет периметр квадрата.
+    
+    Параметры:
+        a (float): Длина стороны квадрата.
+    
+    Возвращает:
+        float: Периметр квадрата.
     """
     return 4 * a
