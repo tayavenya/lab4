@@ -2,21 +2,25 @@ import math
 
 def area(r):
     """
-    Calculate the area of a circle.
-    Args:
-        r (float): Radius of the circle.
-    Returns:
-        float: Area of the circle.
+    Вычисляет площадь круга.
+    
+    Параметры:
+        r (float): Радиус круга.
+    
+    Возвращает:
+        float: Площадь круга.
     """
     return math.pi * r * r
 
 
 def perimeter(r):
     """
-    Calculate the perimeter (circumference) of a circle.
-    Args:
-        r (float): Radius of the circle.
-    Returns:
-        float: Circumference of the circle.
+    Вычисляет длину окружности (периметр круга).
+    
+    Параметры:
+        r (float): Радиус окружности.
+    
+    Возвращает:
+        float: Длина окружности.
     """
     return 2 * math.pi * r
